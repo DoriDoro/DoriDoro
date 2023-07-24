@@ -1,4 +1,4 @@
-```
+```python
 class DoriDoro:
 
     def __init__(self):
