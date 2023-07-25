@@ -34,20 +34,29 @@ class DoriDoro:
         return f'{self.username} | {self.position}'
 
 
-    def job_offer(home_office_condition, working_condition, working_language, present_days_per_month, spoken_language):
-        offer_job = False
+def job_offer(home_office_condition, working_condition, working_language, present_days_per_month, spoken_language, location):
+    offer_job = False
+    available = True
 
-        if home_office_condition == 'full-remote' and working_language in ['english', 'french'] and working_condition in ['full-time', 'part-time']:
-            offer_job = True
-        elif home_office_condition == 'hybrid' and working_language == 'english' and present_days_per_month <= 5:
-            offer_job = True
-        elif home_office_condition == 'hybrid' and working_language == 'french' and spoken_language == 'english':
-            offer_job = True
+    # Check if the job meets the remote/full-remote criteria
+    if home_office_condition in ['full-remote', 'remote']:
+        if working_language in ['english', 'french']:
+            if working_condition in ['full-time', 'part-time', 'CDI']:
+                offer_job = True
+                available = False
 
-        if working_condition in ['full-time', 'part-time'] and home_office_condition == 'full-remote':
+    # Check if the job meets the hybrid criteria
+    if home_office_condition == 'hybrid' and working_condition in ['full-time', 'part-time', 'CDI']:
+        if working_language == 'english' and present_days_per_month <= 5:
             offer_job = True
+            available = False
 
-        return offer_job
+        elif working_language == 'french' and spoken_language == 'english':
+            offer_job = True
+            available = False
+
+
+    return offer_job
 
 
 if __name__ == '__main__':
