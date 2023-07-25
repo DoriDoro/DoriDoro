@@ -21,7 +21,7 @@ class DoriDoro:
             'database': ['PostgreSQL', 'MySQL', 'SQLite3', 'Mongo DB'],
             'operation_system': ['Linux', 'Mac', 'Windows'],
             'deployment': ['Vercel', 'Heroku'],
-            'frontend': ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'Boostrap', 'Bulma'],
+            'frontend': ['HTML', 'CSS', 'JavaScript', 'React', 'Boostrap', 'Bulma'],
             'tools': ['GIT', 'GitHub', 'GitLab', 'Pandas', 'Celery'],
             'IDE': ['PyCharm', 'VSCode', 'Sublime Text']
         }
