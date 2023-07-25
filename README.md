@@ -29,20 +29,25 @@ class DoriDoro:
         self.characteristics = ['calm', 'quiet', 'shy', 'easily bored', 'diligent', 'quick learner', 'really sensitive', 'reliable']
         self.interests = ['growing', 'understanding' 'compassion', 'psychologie', 'health']
 
+
     def __str__(self):
         return f'{self.username} | {self.position}'
 
-    def job_offer(home_office_condition, working_condition, working_language):
+
+    def job_offer(home_office_condition, working_condition, working_language, present_days_per_month, spoken_language):
         offer_job = False
 
-        if home_office_condition == 'full-remote' and working_conditon == 'english':
+        if home_office_condition == 'full-remote' and working_language in ['english', 'french'] and working_condition in ['full-time', 'part-time']:
             offer_job = True
-            break
+        elif home_office_condition == 'hybrid' and working_language == 'english' and present_days_per_month <= 5:
+            offer_job = True
+        elif home_office_condition == 'hybrid' and working_language == 'french' and spoken_language == 'english':
+            offer_job = True
 
-        elif working_condition in ['full-time', 'part-time']:
-            if home_office_condition == 'full-remote':
-                offer_job = True
-                break
+        if working_condition in ['full-time', 'part-time'] and home_office_condition == 'full-remote':
+            offer_job = True
+
+        return offer_job
 
 
 if __name__ == '__main__':
