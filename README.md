@@ -38,8 +38,10 @@ class DoriDoro:
     def job_offer(
         home_office_condition,
         working_condition,
+        location,
         working_language,
         present_days_per_month,
+        present_monings_per_week,
         spoken_language
     ):
         offer_job = False
@@ -47,19 +49,28 @@ class DoriDoro:
     
         # Check if the job meets the remote/full-remote criteria
         if home_office_condition in ['full-remote', 'remote'] and working_language in ['english', 'french']:
-            if working_condition in ['full-time', 'part-time', 'CDI']:
+            if working_condition in ['full-time', 'part-time', 'CDI'] and location in ['Europe', 'Switzerland']:
                 offer_job = True
                 available = False
     
         # Check if the job meets the hybrid criteria
         if home_office_condition == 'hybrid' and working_condition in ['full-time', 'part-time', 'CDI']:
-            if working_language == 'english' and present_days_per_month <= 5:
-                offer_job = True
-                available = False
+            if working_language == 'english':
+                if present_days_per_month <= 5:
+                    if location in ['Europe', 'Switzerland']:
+                        offer_job = True
+                        available = False
+
+                elif present_monings_per_week in ['Monday morning', Tuesday morning', Thurdsay morning', Friday moning']:
+                    if location in ['Bruz', 'Rennes', 'Guichen', 'Chartres-de-Bretagne', 'Saint-Jacques-de-la-Lande', 'Laille']:
+                        offer_job = True
+                        available = False
     
             elif working_language == 'french' and spoken_language == 'english':
                 offer_job = True
                 available = False
+
+            
 
 
     return offer_job
