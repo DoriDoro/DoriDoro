@@ -61,7 +61,7 @@ class DoriDoro:
                         offer_job = True
                         available = False
 
-                elif present_monings_per_week in ['Monday morning', Tuesday morning', Thurdsay morning', Friday moning']:
+                elif present_monings_per_week in ['Monday morning', 'Tuesday morning', 'Thurdsay morning', 'Friday moning']:
                     if location in ['Bruz', 'Rennes', 'Guichen', 'Chartres-de-Bretagne', 'Saint-Jacques-de-la-Lande', 'Laille']:
                         offer_job = True
                         available = False
