@@ -18,11 +18,11 @@ class DoriDoro:
         self.portfolio = 'https://portfolio-dorothea-reher-doridoro.vercel.app'
         self.linkedin = 'https://www.linkedin.com/in/dorothea-reher/'
         self.code = {
-            'backend': ['Python', 'Django', 'Flask', 'Node'],
-            'database': ['PostgreSQL', 'MySQL', 'SQLite3', 'Mongo DB'],
+            'backend': ['Python', 'Django'],
+            'database': ['PostgreSQL', 'SQLite3'],
             'operation_system': ['Linux', 'Mac', 'Windows'],
             'deployment': ['Vercel', 'Heroku'],
-            'frontend': ['HTML', 'CSS', 'JavaScript', 'React', 'Boostrap', 'Bulma'],
+            'frontend': ['HTML', 'CSS', 'JavaScript', 'Boostrap'],
             'tools': ['GIT', 'GitHub', 'GitLab', 'Pandas', 'Celery'],
             'IDE': ['PyCharm', 'VSCode', 'Sublime Text']
         }
