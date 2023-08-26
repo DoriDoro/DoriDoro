@@ -4,15 +4,15 @@ class DoriDoro:
 
     def __init__(self):
         self.username = 'DoriDoro'
-        self.position = 'Python Django Developer'
+        self.position = 'Python Django Junior Developer'
         self.webdevelopment_formations = {
             'Ironhack Paris': {
-                'period': 'August to October2019',
-                'skills': ['HTML5', 'CSS3', 'JavaScript', 'React', 'Node'],
+                'period': 'August to October 2019',
+                'skills': ['HTML5', 'CSS3', 'JavaScript', 'React', 'Node', 'Postman', 'MangoDB'],
             },
             'OpenClassrooms' : {
                 'period': 'November 2022 to present',
-                'skills': ['Python', 'Django', 'HTMLS5', 'CSS3', 'JavaScript'],
+                'skills': ['Python', 'Django', 'Django REST framework', 'HTMLS5', 'CSS3', 'JavaScript', 'Postman'],
             }
         }
         self.portfolio = 'https://portfolio-dorothea-reher-doridoro.vercel.app'
@@ -26,8 +26,12 @@ class DoriDoro:
             'tools': ['GIT', 'GitHub', 'GitLab', 'Pandas', 'Celery'],
             'IDE': ['PyCharm', 'VSCode', 'Sublime Text']
         }
-        self.private = ['dogs', 'horses', 'yoga', 'handicrafts', 'learning', 'coding', 'walking', 'biking', 'movies']
-        self.characteristics = ['calm', 'quiet', 'easily bored', 'diligent', 'quick learner', 'really sensitive', 'reliable']
+        self.private = [
+            'dogs', 'horses', 'yoga', 'handicrafts', 'learning', 'coding', 'walking', 'biking', 'movies'
+        ]
+        self.characteristics = [
+            'calm', 'quiet', 'easily bored', 'diligent', 'quick learner', 'really sensitive', 'reliable'
+        ]
         self.interests = ['growing', 'understanding' 'compassion', 'psychologie', 'health']
 
 
@@ -61,8 +65,12 @@ class DoriDoro:
                         offer_job = True
                         available = False
 
-                elif present_monings_per_week in ['Monday morning', 'Tuesday morning', 'Thurdsay morning', 'Friday moning']:
-                    if location in ['Bruz', 'Rennes', 'Guichen', 'Chartres-de-Bretagne', 'Saint-Jacques-de-la-Lande', 'Laille']:
+                elif present_monings_per_week in [
+                    'Monday morning', 'Tuesday morning', 'Thurdsay morning', 'Friday moning'
+                ]:
+                    if location in [
+                        'Bruz', 'Rennes', 'Guichen', 'Chartres-de-Bretagne', 'Saint-Jacques-de-la-Lande', 'Laille'
+                    ]:
                         offer_job = True
                         available = False
     
