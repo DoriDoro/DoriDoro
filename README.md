@@ -16,6 +16,11 @@ class DoriDoro:
             }
         }
         self.portfolio = 'https://portfolio-dorothea-reher-doridoro.vercel.app'
+        self.articles = [
+            'https://dev.to/doridoro/deploy-a-django-app-with-postgresql-database-on-vercel-1965',
+            'https://dev.to/doridoro/how-to-first-migrate-custom-user-model-within-models-directory-1bdl',
+            'https://dev.to/doridoro/classed-base-views-cbv-register-login-and-logout-4af1'
+        ]
         self.linkedin = 'https://www.linkedin.com/in/dorothea-reher/'
         self.code = {
             'backend': ['Python', 'Django'],
