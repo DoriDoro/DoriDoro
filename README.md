@@ -19,7 +19,12 @@ class DoriDoro:
         self.articles = [
             'https://dev.to/doridoro/deploy-a-django-app-with-postgresql-database-on-vercel-1965',
             'https://dev.to/doridoro/how-to-first-migrate-custom-user-model-within-models-directory-1bdl',
-            'https://dev.to/doridoro/classed-base-views-cbv-register-login-and-logout-4af1'
+            'https://dev.to/doridoro/classed-base-views-cbv-register-login-and-logout-4af1',
+            'https://dev.to/doridoro/create-a-superuser-in-django-with-custom-user-model-attributes-449o',
+            'https://dev.to/doridoro/drf-create-property-decorator-in-view-and-use-property-in-serializer-okm',
+            'https://dev.to/doridoro/error-str-returned-non-string-type-user-344n',
+            'https://dev.to/doridoro/drf-create-validation-in-serializer-421i',
+            'https://dev.to/doridoro/what-problems-can-happen-with-different-serializer-in-drf-5e7m'
         ]
         self.linkedin = 'https://www.linkedin.com/in/dorothea-reher/'
         self.code = {
