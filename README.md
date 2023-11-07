@@ -24,7 +24,8 @@ class DoriDoro:
             'https://dev.to/doridoro/drf-create-property-decorator-in-view-and-use-property-in-serializer-okm',
             'https://dev.to/doridoro/error-str-returned-non-string-type-user-344n',
             'https://dev.to/doridoro/drf-create-validation-in-serializer-421i',
-            'https://dev.to/doridoro/what-problems-can-happen-with-different-serializer-in-drf-5e7m'
+            'https://dev.to/doridoro/what-problems-can-happen-with-different-serializer-in-drf-5e7m',
+            'https://dev.to/doridoro/drf-detailed-information-of-user-in-related-serializer-4nif'
         ]
         self.linkedin = 'https://www.linkedin.com/in/dorothea-reher/'
         self.code = {
