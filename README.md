@@ -25,7 +25,9 @@ class DoriDoro:
             'https://dev.to/doridoro/error-str-returned-non-string-type-user-344n',
             'https://dev.to/doridoro/drf-create-validation-in-serializer-421i',
             'https://dev.to/doridoro/what-problems-can-happen-with-different-serializer-in-drf-5e7m',
-            'https://dev.to/doridoro/drf-detailed-information-of-user-in-related-serializer-4nif'
+            'https://dev.to/doridoro/drf-detailed-information-of-user-in-related-serializer-4nif',
+            'https://dev.to/doridoro/several-ways-to-create-a-simple-url-2fhh',
+            'https://dev.to/doridoro/django-rest-framework-warning-unorderedobjectlistwarning-1p3p'
         ]
         self.linkedin = 'https://www.linkedin.com/in/dorothea-reher/'
         self.code = {
