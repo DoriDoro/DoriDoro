@@ -12,31 +12,19 @@ class DoriDoro:
             },
             'OpenClassrooms' : {
                 'period': 'November 2022 to present',
-                'skills': ['Python', 'Django', 'Django REST framework', 'HTMLS5', 'CSS3', 'JavaScript', 'Postman'],
+                'skills': ['Python', 'Django', 'Django REST framework', 'Flask', 'HTMLS5', 'CSS3', 'JavaScript', 'jQuery', 'Vanilla JavaScript', 'Postman', 'Git', 'GitHub', 'GitHub actions', 'Branching', 'Unittest', 'Pytest', 'CLI application', 'SQLite', 'PostgreSQL', 'UML', 'Wireframe', 'User Story', 'ERD', 'Sentry', 'Docker', 'virtuel environment', 'Render'],
             }
         }
         self.portfolio = 'https://portfolio-dorothea-reher-doridoro.vercel.app'
-        self.articles = [
-            'https://dev.to/doridoro/deploy-a-django-app-with-postgresql-database-on-vercel-1965',
-            'https://dev.to/doridoro/how-to-first-migrate-custom-user-model-within-models-directory-1bdl',
-            'https://dev.to/doridoro/classed-base-views-cbv-register-login-and-logout-4af1',
-            'https://dev.to/doridoro/create-a-superuser-in-django-with-custom-user-model-attributes-449o',
-            'https://dev.to/doridoro/drf-create-property-decorator-in-view-and-use-property-in-serializer-okm',
-            'https://dev.to/doridoro/error-str-returned-non-string-type-user-344n',
-            'https://dev.to/doridoro/drf-create-validation-in-serializer-421i',
-            'https://dev.to/doridoro/what-problems-can-happen-with-different-serializer-in-drf-5e7m',
-            'https://dev.to/doridoro/drf-detailed-information-of-user-in-related-serializer-4nif',
-            'https://dev.to/doridoro/several-ways-to-create-a-simple-url-2fhh',
-            'https://dev.to/doridoro/django-rest-framework-warning-unorderedobjectlistwarning-1p3p'
-        ]
+        self.articles = 'https://dev.to/doridoro'
         self.linkedin = 'https://www.linkedin.com/in/dorothea-reher/'
         self.code = {
             'backend': ['Python', 'Django'],
             'database': ['PostgreSQL', 'SQLite3'],
             'operation_system': ['Linux', 'Mac', 'Windows'],
-            'deployment': ['Vercel', 'Heroku'],
-            'frontend': ['HTML', 'CSS', 'JavaScript', 'Boostrap'],
-            'tools': ['GIT', 'GitHub', 'GitLab', 'Pandas', 'Celery'],
+            'deployment': ['Vercel', 'Heroku', 'Render'],
+            'frontend': ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Vanilla JavaScript', 'Boostrap'],
+            'tools': ['Git', 'GitHub', 'GitHub actions', 'GitLab', 'Pandas', 'Celery', 'Sentry', 'Docker'],
             'IDE': ['PyCharm', 'VSCode', 'Sublime Text']
         }
         self.private = [
