@@ -15,7 +15,7 @@ class DoriDoro:
                 'skills': ['Python', 'Django', 'Django REST framework', 'Flask', 'HTMLS5', 'CSS3', 'JavaScript', 'jQuery', 'Vanilla JavaScript', 'Postman', 'Git', 'GitHub', 'GitHub actions', 'Branching', 'Unittest', 'Pytest', 'CLI application', 'SQLite', 'PostgreSQL', 'UML', 'Wireframe', 'User Story', 'ERD', 'Sentry', 'Docker', 'virtuel environment', 'Render'],
             }
         }
-        self.portfolio = 'https://portfolio-dorothea-reher-doridoro.vercel.app'
+        self.portfolio = 'https://www.dorothea-reher.com/en/'
         self.articles = 'https://dev.to/doridoro'
         self.linkedin = 'https://www.linkedin.com/in/dorothea-reher/'
         self.code = {
