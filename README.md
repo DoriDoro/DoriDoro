@@ -11,7 +11,7 @@ class DoriDoro:
         self.code = {
             'backend': ['Python', 'Django'],
             'database': ['PostgreSQL', 'SQLite3'],
-            'operation_system': 'Linux',
+            'operation_system': 'Linux', 'WSL',
             'deployment': ['PythonAnywhere', 'Render'],
             'tools': ['Git', 'GitHub', 'GitHub actions', 'Sentry', 'Docker'],
             'IDE': 'PyCharm', 'VSCode',
