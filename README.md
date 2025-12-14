@@ -6,15 +6,15 @@ class DoriDoro:
         self.username = 'DoriDoro'
         self.position = 'Python/Django Developer'
         self.portfolio = 'https://www.dorothea-reher.com/en/'
-        self.blog = 'https://dev.to/doridoro'
         self.linkedin = 'https://www.linkedin.com/in/dorothea-reher/'
+        self.blog = 'https://dev.to/doridoro'
         self.code = {
             'backend': ['Python', 'Django'],
             'database': ['PostgreSQL', 'SQLite3'],
             'operation_system': 'Linux',
-            'deployment': ['Vercel', 'Heroku', 'Render'],
+            'deployment': ['PythonAnywhere', 'Render'],
             'tools': ['Git', 'GitHub', 'GitHub actions', 'Sentry', 'Docker'],
-            'IDE': 'PyCharm',
+            'IDE': 'PyCharm', 'VSCode',
         }
 
     def __str__(self):
