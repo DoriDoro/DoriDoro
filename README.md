@@ -7,23 +7,22 @@ class DoriDoro:
     """
 
     def __init__(self):
-        self.username = "DoriDoro"
         self.fullname = "Dorothea Reher"
-        self.position = "Python Developer"
+        self.position = "Backend Python Developer "
         self.company = "DeepOpinion (IFOP Group)"
 
         self.links = {
             "LinkedIn": "https://www.linkedin.com/in/dorothea-reher/",
-            "Blog": "https://dev.to/doridoro",
+            "Portfolio": "https://dorothea-reher.com/",
         }
 
         self.stack = {
             "backend": ["Python", "Django", "Django REST Framework"],
             "databases": {
                 "development": ["SQLite"],
-                "production": ["PostgreSQL"],
+                "production": ["PostgreSQL", "Supabase"],
             },
-            "deployment": ["PythonAnywhere", "AWS"],
+            "deployment": ["AWS", "Render"],
             "tools": [
                 "Git",
                 "GitHub",
@@ -33,10 +32,10 @@ class DoriDoro:
             ],
             "frontend": {
                 "experience": ["Bootstrap"],
-                "collaboration": ["Vue.js (with frontend developers)"],
+                "collaboration": ["frontend developer", "AI department"],
             },
             "os": ["Linux", "WSL"],
-            "editors": ["PyCharm", "VS Code"],
+            "editors": ["VS Code"],
         }
 
         self.responsibilities = [
@@ -68,7 +67,7 @@ class DoriDoro:
         ]
 
     def __str__(self):
-        return f"{self.username} | {self.position} @ {self.company}"
+        return f"{self.fullname} | {self.position} @ {self.company}"
 
 
 if __name__ == "__main__":
